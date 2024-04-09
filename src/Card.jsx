@@ -1,11 +1,18 @@
 import React from "react";
 
 import "./Card.css";
-
-function Card() {
+/**Card:
+ *
+ * Props: img(url)
+ *
+ *State: none
+ *
+ * App-> CardsDeck => Card
+ */
+function Card({ img }) {
   return (
     <div className="Card">
-      <img></img>
+      <img src={img}></img>
     </div>
   );
 }
